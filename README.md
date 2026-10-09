@@ -10,7 +10,13 @@ The apps always open the latest version of the website, so there is nothing to u
 | **Windows** | [Harmony-Editor-windows-x64.zip](https://github.com/gr4mpus/HarmonyEditor-downloads/releases/latest/download/Harmony-Editor-windows-x64.zip) | Windows 10 / 11, 64-bit |
 | **Android, iPhone & iPad** | Install from [the website](https://harmony-editor-ecru.vercel.app) (Get the app) | Chrome on Android · Safari on iOS |
 
-**Mac:** open the DMG and drag Harmony Editor to Applications. The first time, open System Settings › Privacy & Security and click **Open Anyway**.
+**Mac — install in one step (recommended, no security warning):** open Terminal and run
+
+```bash
+curl -fsSL https://harmony-editor-ecru.vercel.app/install-mac.sh | bash
+```
+
+**Mac — or from the DMG:** open it and drag Harmony Editor to Applications, then open it. macOS says it “could not verify” the app because it isn’t from the App Store: click **Done** (not Move to Trash), then in **System Settings › Privacy & Security** click **Open Anyway** › **Open**. You only do this once.
 
 **Windows:** extract the ZIP and run `Harmony Editor.exe`. If Windows shows a warning, click **More info › Run anyway**.
 
