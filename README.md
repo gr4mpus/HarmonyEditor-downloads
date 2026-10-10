@@ -20,4 +20,4 @@ curl -fsSL https://harmony-editor-ecru.vercel.app/install-mac.sh | bash
 
 **Windows:** extract the ZIP and run `Harmony Editor.exe`. If Windows shows a warning, click **More info › Run anyway**.
 
-Made by [gr4mpus](https://gr4mpus.github.io/portfolio/).
+Made by [gr4mpus](https://rahulprasad.co.in/).
